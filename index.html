@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="contenedor-tareas">
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="entradaTarea" placeholder="Nueva tarea...">
+        <button id="botonAgregarTarea">Agregar Tarea</button>
+        <div class="filtros">
+            <button id="botonMostrarCompletadas">Mostrar Completadas</button>
+            <button id="botonMostrarPendientes">Mostrar Pendientes</button>
+            <button id="botonMostrarTodas">Mostrar Todas</button>
+        </div>
+        <input type="text" id="entradaBuscarTarea" placeholder="Buscar tarea...">
+        <button id="botonBuscarTarea">Buscar Tarea</button>
+        <ul id="listaTareas"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
